@@ -1,0 +1,55 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    text-align: center;
+    color: #031d38;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+img{
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.biography-image {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+.biography-image:hover {
+    transform: scale(1.05);
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+.quote {
+    font-style: italic;
+    color: #ccc;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+       
+.container {
+    background: linear-gradient(135deg, #007bff, #00bfff);
+}
